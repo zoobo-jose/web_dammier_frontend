@@ -1,0 +1,364 @@
+/* represente une offre dans une liste de recherche*/
+.smallOffre {
+    font-size: 1.2em;
+    width: 35em;
+    margin-bottom: 1em;
+    max-width: 90%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: var(--color1-ligth);
+    align-items: stretch;
+    overflow: hidden;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.199);
+    border: solid 1px var(--color1);
+}
+
+.smallOffre:hover {
+    cursor: pointer;
+}
+
+.smallOffre .img {
+    width: 50%;
+    min-width: 40%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+}
+
+.smallOffre .img img {
+    min-width: 101%;
+}
+
+.smallOffre .datas {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 0.5em;
+    max-width: 20em;
+}
+
+.smallOffre .datas .title {
+    width: 100%;
+    font-weight: 800;
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+
+.smallOffre .datas .descrip {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.smallOffre .datas .footer-data {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.smallOffre .datas .footer-data .dat {
+    display: flex;
+    align-items: center;
+}
+
+.smallOffre .datas .footer-data .dat .svg {
+    width: 1.5em;
+    height: 1.5em;
+    max-width: 1.5em;
+    max-height: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.smallOffre .datas .footer-data .dat .svg svg {
+    width: 100%;
+    height: 100%;
+    fill: rgba(0, 0, 0, 0.507);
+}
+
+@media screen and (max-width:500px) {
+    .smallOffre {
+        flex-wrap: wrap;
+    }
+
+    .smallOffre .img,
+    .datas {
+        min-width: 100%;
+    }
+
+    .smallOffre .img {
+        min-height: none;
+    }
+
+    .smallOffre .data {
+        padding-top: 1em;
+    }
+}
+
+.smallOffre .img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+/* pour voir les details d'un offre*/
+/* .bigOffre {
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bigOffre .title {
+    font-size: 1.5em;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--color1-ligth);
+}
+
+.bigOffre .title2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.2em;
+    padding-left: 2em;
+    color: rgba(0, 0, 0, 0.493);
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.bigOffre .imgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bigOffre .img {
+    margin: 0.2em;
+    min-width: 15em;
+    overflow: hidden;
+}
+
+.bigOffre .img img {
+    max-height: 90vh;
+}
+
+.bigOffre .section {
+    margin-top: 0.9em;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    padding: 0.5em;
+    border: solid 1px var(--color2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bigOffre .tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--color1);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.2em;
+    border-radius: 0.5em;
+}
+
+.bigOffre .tel .svg {
+    width: 1.3em;
+    height: 1.3em;
+    min-width: 1.3em;
+    min-height: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+    border-right: solid 1px white;
+}
+
+.bigOffre .tel .svg svg {
+    width: 100%;
+    height: 100%;
+    fill: white;
+} */
+.bigOffre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    width: 100%;
+}
+.bigOffre .part{
+    background-color: white;
+    border-radius: 0.5em;
+    padding:1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bigOffre .title{
+    color:black;
+    font-weight: 800;
+    font-size: 2.1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bigOffre .title .svg{
+    width: 1em;
+    height: 1em;
+    max-width: 1em;
+    max-height: 1em;
+    margin: 0.2em;
+}
+.bigOffre .title .svg svg{
+    width: 100%;
+    height: 100%;
+    fill:var(--color1);
+}
+.bigOffre .mini{
+    font-size: 0.8em;
+    color:rgba(0, 0, 0, 0.322);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bigOffre .mini .svg{
+    width: 1.2em;
+    height: 1.2em;
+    max-width: 1.2em;
+    max-height: 1.2em;
+    margin: 0.2em;
+}
+.bigOffre .mini .svg svg{
+    width: 100%;
+    height: 100%;
+    fill:rgba(0, 0, 0, 0.473);
+}
+.bigOffre .author{
+    color:var(--color1);
+}
+.bigOffre .listImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3em;
+}
+.bigOffre .listImage .mainImage{
+    max-height: 70vh;
+    border:solid 3px var(--color1);
+    margin-bottom: 0.5em;
+    max-width: 100%;
+}
+.bigOffre .listImage .optionsImages{
+    padding: 0.5em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bigOffre .listImage .optionsImages .option{
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    margin: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    overflow: hidden;
+    border:solid 3px rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+}
+.bigOffre .listImage .optionsImages .current{
+    border:solid 1px var(--color1);
+    margin: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.bigOffre .listImage .optionsImages .option img{
+    width: 100%;
+}
+.bigOffre .text{
+    
+}
+.bigOffre .contacts{
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1em;
+    border-top:dotted 2px rgba(0, 0, 0, 0.123);
+}
+.bigOffre .contacts .subTitle{
+    font-weight: 800;
+    color:black;
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bigOffre .contacts .subTitle .svg{
+    width: 1.2em;
+    height: 1.2em;
+    min-width: 1.2em;
+    min-height: 1.2em;
+    margin: 0.2em;
+}
+.bigOffre .contacts .subTitle .svg svg{
+    width: 100%;
+    height: 100%;
+    fill:var(--color1);
+}
+
+.bigOffre .contacts .photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    min-width: 3em;
+    min-height: 3em;
+    margin: 0.2em;
+    padding: 0.2em;
+    border:solid 1px var(--color2);
+    border-radius: 0.5em;
+}
+.bigOffre .contacts .photo svg{
+    width: 100%;
+    height: 100%;
+    fill:var(--color2);
+}

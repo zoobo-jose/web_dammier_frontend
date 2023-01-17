@@ -1,0 +1,21 @@
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color:var(--color2);
+}
+.bg3{
+    background-color: var(--color3);
+}
+.bg4{
+    background-color: var(--color4);
+}
+.fg_b{
+    color:rgba(0, 0, 0, 0.589);
+}
+.fg_w{
+    color:rgb(255, 255, 255);
+}
+.fg_w2{
+    color:rgba(255, 255, 255, 0.589);
+}

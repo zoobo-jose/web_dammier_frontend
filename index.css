@@ -1,0 +1,85 @@
+:root {
+    --color1: #1e90ff;
+    --color1-ligth: #e6f1fc83;
+    --color1-ligth2: #72b5f883;
+    --color2: #f0e000ce;
+    --color2-ligth: #fcf266ce;
+    --color3:rgba(247, 173, 243, 0.507);
+    --color4:rgba(250, 216, 165, 0.507);
+  }
+@font-face {
+    font-family: 'roboto';
+    src:url('z/www/police/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'rubik';
+    src:url('z/www/police/Rubik_Bubbles/RubikBubbles-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'bunge';
+    src:url('z/www/police/Bungee_Outline/BungeeOutline-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'londrina';
+    src:url('z/www/police/Londrina_Outline/LondrinaOutline-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Love_Ya_Like_A_Sister';
+    src:url('z/www/police/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lovers_Quarrel';
+    src:url('z/www/police/Lovers_Quarrel/LoversQuarrel-Regular.ttf') format('truetype');
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    font-family: "roboto";
+}
+button{
+    cursor: pointer;
+}
+
+.afterFooter{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color1-ligth);
+    padding-top:1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    justify-content: center;
+    border-top: solid 1px var(--color2);
+}
+
+.svg2{
+    width:2em;
+    height: 2em;
+    min-width:2em;
+    min-height:2em;
+    padding:0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.171);
+    margin-left: 1em;
+}
+.svg2 svg{
+    width:100%;
+    height: 100%;
+    fill:var(--color1);
+}
+@media screen and (min-width:1400px) {
+   
+}
