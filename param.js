@@ -1,6 +1,7 @@
 var attribut = {
     /* nom de l'application*/
-    appName: "sweet-kiss",
+    appName: "KingDam",
     /* composant actuellement affiche*/
-    _current:"detailOffre",
+    _current:"accueil",
+    author:"☕ ZO'OBO Bekolo Eric Jose"
 }

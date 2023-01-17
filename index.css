@@ -1,11 +1,9 @@
 :root {
     --color1: #1e90ff;
     --color1-ligth: #e6f1fc83;
-    --color1-ligth2: #72b5f883;
-    --color2: #f0e000ce;
-    --color2-ligth: #fcf266ce;
-    --color3:rgba(247, 173, 243, 0.507);
-    --color4:rgba(250, 216, 165, 0.507);
+    --color2:rgba(206, 179, 61, 0.479);
+    --dim-svg:1.5em;
+    --point-rupture:900px;
   }
 @font-face {
     font-family: 'roboto';
