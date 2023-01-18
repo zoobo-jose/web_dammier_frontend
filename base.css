@@ -56,7 +56,7 @@
     top:0;
     left:0;
     position: absolute;
-    background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.192));
+    background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.39));
 }
 /*body*/
 .body{
@@ -205,6 +205,15 @@
 }
 .navbar .crown{
     font-size: 3em;
+}
+.navbar .left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5em;
+    flex-grow: 1;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 .navbar_open{
     display:none;
