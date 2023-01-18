@@ -1,3 +1,43 @@
+/*advantage*/
+.advantage{
+    margin-top: 3em;
+    margin-bottom: 7em;
+    padding: 1em;
+    /* border: solid 1px rgba(0, 0, 0, 0.151);
+    border-radius: 1em; */
+}
+.advantage .element{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+.advantage .element .title{
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0.2em;
+    /* text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.308); */
+}
+.advantage .element .img{
+    position: absolute;
+    left:-0.5em;
+    top:-1.8em;
+    font-size: 2em;
+    background-color: rgb(226, 226, 226);
+    padding: 0.2em;
+    /* text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.308); */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+}
+.advantage .element .text{
+    padding: 1em;
+}
+.advantage .center{
+    background-color: rgba(0, 0, 0, 0.027);
+    transform: scale(1.02);
+}
 /*bandeau*/
 .bandeau{
     /* background-image: url('z/www/img/gif/1.gif'); */
@@ -156,6 +196,11 @@
     align-content: center;
     justify-content: space-around;
     padding: 1em;
+    border: solid 1px rgba(0, 0, 0, 0.048);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.164); */
+    border-radius: 1em;
+    margin: 0.5em;
+    background-color: rgba(0, 0, 0, 0.025);
 }
 .form .data .title{
     font-size: 2.2em;
@@ -174,6 +219,7 @@
     margin-bottom: 0.8em;
     padding: 0.5em;
     border-bottom: solid 1px rgba(0, 0, 0, 0.295);
+    background-color: transparent;
 }
 .form .data .submit{
     margin-top: 1em;
@@ -196,6 +242,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
+    color:black;
 }
 .navbar .option:hover{
     background-color:rgba(0, 0, 0, 0.040) ;
@@ -243,6 +291,7 @@
         justify-content: flex-start;
         width: auto;
         padding: 1em;
+        color:white;
     }
     .navbar .option:hover{
         background-color:rgba(0, 0, 0, 0.090) ;
@@ -272,4 +321,8 @@
         height: 100%;
         fill:white;
     }
+}
+/**/
+.space{
+    margin: 0.5em;
 }
