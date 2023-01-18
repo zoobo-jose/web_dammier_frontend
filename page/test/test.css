@@ -1,0 +1,16 @@
+/* css de test */
+/* =======================================
+    css du system : ne pas toucher
+   ===============================
+*/
+.test.app___hidden{
+    display: none;
+}
+/*=========================================*/
+.img_test{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color1);
+    font-size: 4em;
+    position: fixed;
+}
