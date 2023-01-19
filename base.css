@@ -12,6 +12,18 @@
     position: relative;
     margin-top: 4em;
     margin-bottom: 1em;
+    top:0;
+    left:0;
+    border:solid 1px rgba(0, 0, 0, 0);
+    transition: 0.3s;
+    box-shadow: 60px 60px 5px rgba(0, 0, 0, 0.096);
+}
+.advantage .element:hover{
+    /* box-shadow: 60px 60px 5px rgba(0, 0, 0, 0.096); */
+    top:-10px;
+    left:-5px;
+    border:solid 1px rgba(0, 0, 0, 0.053);
+    background-color: rgba(0, 0, 0, 0.018);
 }
 .advantage .element .title{
     font-size: 1.5em;
@@ -41,16 +53,27 @@
 /*bandeau*/
 .bandeau{
     /* background-image: url('z/www/img/gif/1.gif'); */
-    background-size: 10em 10em;
+    background-image: url('z/www/img/bg4.png');
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 50vh;
-    background-color: var(--color1);
+    /* background-color: var(--color1); */
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content:center ;
     border-radius: 1.5em;
+    position: relative;
+    overflow: hidden;
+}
+.bandeau::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.397));
 }
 .bandeau .title{
     color:white;
@@ -60,11 +83,16 @@
     text-align: center;
     text-shadow: 10px 10px 2px rgba(255, 255, 255, 0.5);
 }
+.bandeau .crown{
+    display: inline-block;
+    animation: shake_bottom 3s infinite;
+}
 .bandeau .note{
     text-align: center;
     font-size: 1.2em;
     font-weight: 900;
     margin-bottom: 0.5em;
+    color:white;
 }
 @media screen and (max-width:900px) {
     .bandeau{
@@ -151,18 +179,20 @@
 /*footer*/
 .footer{
     width: 100%;
-    min-height: 5em;
-    background-color: rgba(0, 0, 0, 0.041);
-    flex-grow: 1;
     margin-top: 5em;
-    padding-top: 2em;
+    background-image: url('z/www/img/bg2.png');
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    border-top-left-radius: 6em 2em;
+    border-top-right-radius: 6em 2em;
 }
-.footer .signature{
+.footer .filter{
     width: 100%;
-    text-align: right;
-    color:rgb(80, 78, 78);
-    padding-right: 4em;
-    font-size: 0.7em;
+    min-height: 50vh;
+    padding-top: 2em;
+    /* background-image: linear-gradient(0deg,transparent,transparent,rgba(255, 255, 255, 0.671)); */
+    background-color: rgba(255, 255, 255, 0.87);
 }
 /*form*/
 .form{
