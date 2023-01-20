@@ -1,7 +1,7 @@
 attribut.test={
     name:'test',
     items:[],
-    images:['🕶️','🎮','🏆','🏅'],
+    images:['👑','🕶️','🎮','🏆','🏅'],
     /* methode d'initialisation*/
     init:function(param){
         console.log(" demarrage de test");

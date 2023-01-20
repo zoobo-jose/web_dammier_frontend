@@ -10,7 +10,7 @@
 .img_test{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(252, 113, 113);
-    font-size: 2em;
+    background-color: var(--color1);
+    font-size: 4em;
     position: fixed;
 }
