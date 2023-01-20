@@ -5,13 +5,13 @@
     <div class="navbar hidden">
         <div class="hidden crown">👑</div>
         <div class="var@ appName logo"></div>
-        <a href="#connect" class="option" onclick="attribut.accueil.hiddeNavBar()">
+        <a href="#connect" class="if@ accueil._child0.isNoConnected option" onclick="attribut.accueil.hiddeNavBar()">
             se connecter
         </a>
-        <a href="#inscript" class="option" onclick="attribut.accueil.hiddeNavBar()">
+        <a href="#inscript" class="if@ accueil._child0.isNoConnected option" onclick="attribut.accueil.hiddeNavBar()">
             s'inscrire
         </a>
-        <div class="option" onclick="attribut.accueil.hiddeNavBar()">
+        <div class="if@ accueil._child0.isNoConnected option" onclick="attribut.accueil.hiddeNavBar()">
             joueur sans compte
         </div>
         <div class="option" onclick="attribut.accueil.hiddeNavBar()">
@@ -94,14 +94,14 @@
         </div>
         <span id="inscript"></span>
         <div class="bandeau_image"></div>
-        <form class="form flex_r_w_sb_s">
+        <div class="form flex_r_w_sb_s">
             <div class="data dim_900_10">
                 <p class="title"> Creer un compte</p>
                 <p class="note"> cree ton compte et commence a jouer</p>
-                <input class="input" placeholder="nom" />
-                <input class="input" placeholder="telephone OM ou Momo" />
-                <input type="password" class="input" placeholder="mot de passe" />
-                <input type="password" class="input" placeholder="confirmer le mot de passe" />
+                <input class="var@ accueil.name input" placeholder="nom" />
+                <input class="var@ accueil.tel input" placeholder="telephone OM ou Momo" />
+                <input type="password" class="var@ accueil.password input" placeholder="mot de passe" />
+                <input type="password" class="var@ accueil.password2 input" placeholder="confirmer le mot de passe" />
                 <button class="btn submit">
                     <span>creer le compte</span>
                 </button>
@@ -109,23 +109,23 @@
             <div class="img dim_900_10">
                 <span>🦉</span>
             </div>
-        </form>
+        </div>
         <span id="connect"></span>
         <div class="bandeau_image"></div>
-        <form class="form flex_r_w_sb_s">
+        <div class="form flex_r_w_sb_s">
             <div class="data dim_900_10">
                 <p class="title"> Se connecter</p>
                 <p class="note"> et Jouer</p>
-                <input class="input" placeholder="telephone OM ou Momo" />
-                <input type="password" class="input" placeholder="mot de passe" />
-                <button class="btn submit">
+                <input class="var@ accueil.tel input" placeholder="telephone OM ou Momo" />
+                <input type="password" class="var@ accueil.password input" placeholder="mot de passe" />
+                <button class="btn submit" onclick="attribut.accueil.connectUser()">
                     <span>se connecter</span>
                 </button>
             </div>
             <div class="img dim_900_10">
                 <span>🎮</span>
             </div>
-        </form>
+        </div>
     </div>
     <!--<comp@--><!-- composant footer -->
 <div class="footer">
@@ -151,5 +151,10 @@
             </div>
         </div>
     </div>
+</div> <!--@>-->
+    <!--<comp@--><!-- composant loading -->
+<div class="if@ accueil._child2.show loading">
+    <div class="var@ accueil._child2.message text"></div>
+    <div class="img">🎮</div>
 </div> <!--@>-->
 </div>

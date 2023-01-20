@@ -1,1 +1,1 @@
-test;,Offre;,animHtml;html
+test;,Offre;,animHtml;html,user;

@@ -1,1 +1,1 @@
-navBar;base/navBar,footer;base/footer
+navBar;base/navBar,footer;base/footer,loading;base/loading

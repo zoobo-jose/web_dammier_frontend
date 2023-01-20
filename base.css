@@ -293,6 +293,34 @@
 .form .data .submit{
     margin-top: 1em;
 }
+/*loading*/
+.loading{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(75, 170, 248, 0.849);
+    width: 100vw;
+    height: 100vh;
+    z-index: 5000;
+    transform: scale(1);
+}
+.loading .img{
+    font-size: 4em;
+    animation: bounce1 2s infinite;
+}
+.loading .text{
+    color:black;
+    font-weight: 900;
+    font-size: 1.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    /* background-color: black; */
+    padding: 0.5em;
+    border-radius: 5px;
+}
 /* navbar */
 .navbar{
     width:100%;
