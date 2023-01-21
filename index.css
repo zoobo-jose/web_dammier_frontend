@@ -9,26 +9,6 @@
     font-family: 'roboto';
     src:url('z/www/police/Roboto/Roboto-Regular.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'rubik';
-    src:url('z/www/police/Rubik_Bubbles/RubikBubbles-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'bunge';
-    src:url('z/www/police/Bungee_Outline/BungeeOutline-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'londrina';
-    src:url('z/www/police/Londrina_Outline/LondrinaOutline-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Love_Ya_Like_A_Sister';
-    src:url('z/www/police/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Lovers_Quarrel';
-    src:url('z/www/police/Lovers_Quarrel/LoversQuarrel-Regular.ttf') format('truetype');
-}
 html{
     box-sizing: border-box;
 }
