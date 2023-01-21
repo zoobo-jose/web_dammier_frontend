@@ -105,13 +105,51 @@
     margin-bottom: 0.5em;
     color:white;
 }
+.bandeau .profile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    min-height: 50vh;
+}
+.bandeau .profile .prop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.568);
+}
+.bandeau .profile .prop .img{
+    font-size: 4em;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bandeau .profile .prop .title{
+    font-size: 1em;
+    color:rgb(22, 22, 22);
+    border-radius: 10px;
+    margin: 3px;
+    padding: 0.5em;
+    font-size: 0.9em;
+    font-weight: 900;
+    text-shadow: 0 0 0 transparent;
+}
 @media screen and (max-width:900px) {
     .bandeau{
         border-radius: 0;
         padding-bottom:5em ;
         padding-top: 3em;
         position: relative;
-        background-image: url('z/www/img/bg/small/4.png');
+        /* background-image: url('z/www/img/bg/small/4.png'); */
+        background-attachment:local;
         border-top-left-radius: 4em 1em;
         border-top-right-radius: 4em 1em;
     }
@@ -160,6 +198,7 @@
 @media screen and (max-width:900px) {
     .bandeau_image{
         background-image: url('z/www/img/bg/small/2.png');
+        background-attachment:local;
     }
 }
 /*body*/
@@ -272,6 +311,7 @@
 @media screen and (max-width:900px) {
     .footer{
         background-image: url('z/www/img/bg/small/2.png');
+        background-attachment:local;
     }
 }
 /*form   */
