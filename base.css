@@ -203,7 +203,6 @@
 }
 /*body*/
 .body{
-    min-height: 60vh;
     padding-left: 4em;
     padding-right: 4em;
 }
@@ -378,6 +377,16 @@
 }
 .form .data .submit{
     margin-top: 1em;
+}
+/*h2*/
+.h2{
+    font-size: 2em;
+    font-weight: 700;
+    color:var(--color1);
+    text-shadow: 0 0 5px rgb(155, 211, 248);
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 /*loading*/
 .loading{

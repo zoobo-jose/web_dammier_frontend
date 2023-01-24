@@ -2,6 +2,6 @@ var attribut = {
     /* nom de l'application*/
     appName: "KingDam",
     /* composant actuellement affiche*/
-    _current:"accueil",
+    _current:"compte",
     author:"☕ Jose"
 }
