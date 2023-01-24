@@ -225,6 +225,7 @@
     border-radius: 2em;
     position: relative;
     overflow: hidden;
+    margin: 2px;
 }
 .btn ::before{
     content: "";
@@ -245,6 +246,8 @@
     height: var(--dim-svg);
     min-width: var(--dim-svg);
     min-height: var(--dim-svg);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 .btn .svg svg{
     width: 100%;
@@ -403,6 +406,16 @@
     /* background-color: black; */
     padding: 0.5em;
     border-radius: 5px;
+}
+/*menuBtn*/
+.menuBtn{
+    margin-top: 1em;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);
+    background-color: rgba(0, 0, 0, 0.034);
 }
 /* navbar */
 .navbar{
