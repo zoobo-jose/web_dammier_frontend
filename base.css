@@ -169,6 +169,12 @@
         margin-bottom: 2em;
     }
 }
+/*bandeau crown*/
+.bandeau_crown{
+    background-image: url('z/www/img/emoji/small/crown.png');
+    background-repeat:no-repeat;
+    background-position: -15px -15px;   
+}
 /* bandeau_image */
 .bandeau_image{
     min-height: 20vh;
@@ -201,6 +207,7 @@
         background-attachment:local;
     }
 }
+
 /*body*/
 .body{
     padding-left: 4em;
@@ -353,13 +360,17 @@
     border: solid 1px rgba(0, 0, 0, 0.048);
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.164); */
     border-radius: 1em;
-    margin: 0.5em;
+    margin: 0.2em;
     background-color: rgba(0, 0, 0, 0.025);
 }
 .form .data .title{
     font-size: 2.2em;
     text-align: center;
     font-weight: 700;
+}
+.form .data .title2{
+    font-weight: 800;
+    margin-right: 0.5em;
 }
 .form .data .note{
     text-align: center;
@@ -415,6 +426,10 @@
     /* background-color: black; */
     padding: 0.5em;
     border-radius: 5px;
+}
+/* margin */
+.margin{
+    margin:0.5em;
 }
 /*menuBtn*/
 .menuBtn{

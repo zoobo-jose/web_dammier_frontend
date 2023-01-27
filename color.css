@@ -22,3 +22,6 @@
 .fg_w2{
     color:rgba(255, 255, 255, 0.589);
 }
+.fg1{
+    color: var(--color1);
+}
