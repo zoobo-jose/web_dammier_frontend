@@ -116,7 +116,7 @@
                         </svg>
                     </div>
                 </button>
-                <button class="btn dim_1100_3 dim_1000_4 dim_600_8 dim_500_10">
+                <button class="btn dim_1100_3 dim_1000_4 dim_600_8 dim_500_10" onclick="App.navigate('accueil')">
                     <span>profile</span>
                     <div class="svg">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
@@ -129,7 +129,49 @@
                 </button>
             </div>
             <h3 class="h2">Recompence</h3>
-            <h3 class="h2">Regle du jeux</h3>
+            <div class="flex_r_w_c_c dim_100_21 bandeau_gris">
+                <div class="recompence flex_r_nw_s_c">
+                    <img src="z/www/img/emoji/small/play.png">
+                    <div class="flex_c_w_c_c margin">
+                        <span>Joueur Expert</span>
+                        <span class="fg1">+4</span>
+                    </div>
+                    <button class="btn">
+                        <span>X</span>
+                    </button>
+                </div>
+                <div class="recompence flex_r_nw_s_c">
+                    <img src="z/www/img/emoji/small/award.png">
+                    <div class="flex_c_w_c_c margin">
+                        <span>Champion</span>
+                        <span class="fg1">+4</span>
+                    </div>
+                    <button class="btn">
+                        <span>X</span>
+                    </button>
+                </div>
+                <div class="recompence flex_r_nw_s_c">
+                    <img src="z/www/img/emoji/small/play.png">
+                    <div class="flex_c_w_c_c margin">
+                        <span>Joueur Expert</span>
+                        <span class="fg1">+4</span>
+                    </div>
+                    <button class="btn">
+                        <span>X</span>
+                    </button>
+                </div>
+                <div class="recompence flex_r_nw_s_c">
+                    <img src="z/www/img/emoji/small/play.png">
+                    <div class="flex_c_w_c_c margin">
+                        <span>Joueur Expert</span>
+                        <span class="fg1">point +4</span>
+                        <span class="fg1">cash +100</span>
+                    </div>
+                    <button class="btn">
+                        <span>X</span>
+                    </button>
+                </div>
+            </div>
             <h3 class="h2">profile</h3>
             <div class="form flex_r_w_c_s">
                 <div class="data dim_900_8">
@@ -172,6 +214,10 @@
                             <span class="title2">tours gagnes</span>
                             <span class="fg1 margin">11</span>
                         </div>
+                        <div class="flex_r_nw_s_c dim_900_5">
+                            <span class="title2">cash</span>
+                            <span class="fg1 margin">500</span>
+                        </div>
                     </div>
                 </div>
                 <div class="data dim_900_20 margin">
@@ -179,16 +225,88 @@
                         <p class="title"> customiser </p>
                     </div>
                     <div class="flex_r_w_c_c">
-                        <div class="flex_r_w_c_c dim_600_6">
-                            couleur des pions
+                        <div class="flex_r_w_start_c dim_600_6">
+                            <span class="title2 margin margin">pion</span>
+                            <div class="flex_r_w_start_start dim_100_20">
+                                <img class="pion margin" src="z/www/img/pion/wood1.png" />
+                                <img class="pion pion_choose margin" src="z/www/img/pion/wood2.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood3.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood4.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood5.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood6.png" />
+                            </div>
                         </div>
-                        <div class="flex_r_w_c_c  dim_600_8">
-                            couleur du roi pions
+                        <div class="flex_r_w_start_c  dim_600_8 margin">
+                            <span class="title2 margin margin">roi</span>
+                            <div class="flex_r_w_start_start dim_100_20">
+                                <img class="pion margin" src="z/www/img/pion/wood1.png" />
+                                <img class="pion roi_choose margin" src="z/www/img/pion/wood2.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood3.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood4.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood5.png" />
+                                <img class="pion margin" src="z/www/img/pion/wood6.png" />
+                            </div>
                         </div>
-                        <div class="flex_r_w_c_c  dim_600_6">
-                            couleur des carreaux
+                        <div class="flex_r_w_start_c  dim_600_6 margin">
+                            <span class="title2 margin margin">carreau</span>
+                            <div class="flex_r_w_start_start dim_100_20">
+                                <img class="carreau margin" src="z/www/img/pion/wood1.png" />
+                                <img class="carreau carreau_choose margin" src="z/www/img/pion/wood2.png" />
+                                <img class="carreau margin" src="z/www/img/pion/wood3.png" />
+                                <img class="carreau margin" src="z/www/img/pion/wood4.png" />
+                                <img class="carreau margin" src="z/www/img/pion/wood5.png" />
+                                <img class="carreau margin" src="z/www/img/pion/wood6.png" />
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <h3 class="h2">Regles du jeux</h3>
+            <div class="flex_r_w_sa_c dim_100_21">
+                <div class="flex_c_w_c_c dim_900_6 bandeau_gris">
+                    <h4 class="h3">Duelle 🦎</h4>
+                    <ol class="p3">
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                    </ol>
+                </div>
+                <div class="flex_c_w_c_c dim_900_6 bandeau_gris">
+                    <h4 class="h3">competition 🦈</h4>
+                    <ol class="p3">
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                    </ol>
+                </div>
+                <div class="flex_c_w_c_c dim_900_6 bandeau_gris">
+                    <h4 class="h3">Entrainement 🐬</h4>
+                    <ol class="p3">
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                    </ol>
+                </div>
+                <div class="flex_c_w_c_c dim_900_6 bandeau_gris">
+                    <h4 class="h3">Recompence 🦎</h4>
+                    <ol class="p3">
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                    </ol>
+                </div>
+                <div class="flex_c_w_c_c dim_900_6 bandeau_gris">
+                    <h4 class="h3">Evolution 🦎</h4>
+                    <ol class="p3">
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                        <li> une regles ordinaire </li>
+                    </ol>
                 </div>
             </div>
             <h3 class="h2">Admin</h3>
