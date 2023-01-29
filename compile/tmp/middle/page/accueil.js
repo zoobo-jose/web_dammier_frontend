@@ -70,9 +70,9 @@ attribut.accueil._child2={
         App.refresh();
     }
 }
-//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 20:53:39 GMT+0100 (West Africa Standard Time)
 attribut.accueil.showLoadingPage=attribut.accueil._child2.showed;
-//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
-//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 20:53:39 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 20:53:39 GMT+0100 (West Africa Standard Time)
 attribut.accueil.hiddenLoadingPage=attribut.accueil._child2.hidden;
-//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 20:53:39 GMT+0100 (West Africa Standard Time)

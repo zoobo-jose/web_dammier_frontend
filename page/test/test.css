@@ -10,7 +10,7 @@
 .img_test{
     width: 100vw;
     height: 100vh;
-    background-color: var(--color1);
+    background-color: black;
     font-size: 4em;
     position: fixed;
 }
