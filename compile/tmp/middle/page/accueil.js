@@ -22,6 +22,8 @@ attribut.accueil={
         attribut.accueil.showLoadingPage("attente du serveur ...");
         userService.connect(attribut.accueil.tel,attribut.accueil.passWord).then((data)=>{
             attribut.accueil.hiddenLoadingPage();
+            sonService.test();
+            alert('hum');
             App.navigate("compte");
         })
     },
@@ -68,9 +70,9 @@ attribut.accueil._child2={
         App.refresh();
     }
 }
-//_a_b_cSat Jan 28 2023 17:33:44 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
 attribut.accueil.showLoadingPage=attribut.accueil._child2.showed;
-//_a_b_cSat Jan 28 2023 17:33:44 GMT+0100 (West Africa Standard Time)
-//_a_b_cSat Jan 28 2023 17:33:44 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)
 attribut.accueil.hiddenLoadingPage=attribut.accueil._child2.hidden;
-//_a_b_cSat Jan 28 2023 17:33:44 GMT+0100 (West Africa Standard Time)
+//_a_b_cSun Jan 29 2023 15:38:14 GMT+0100 (West Africa Standard Time)

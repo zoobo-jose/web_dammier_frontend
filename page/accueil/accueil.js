@@ -22,6 +22,8 @@ attribut.accueil={
         this_.showLoadingPage("attente du serveur ...");
         userService.connect(this_.tel,this_.passWord).then((data)=>{
             this_.hiddenLoadingPage();
+            sonService.test();
+            alert('hum');
             App.navigate("compte");
         })
     },
