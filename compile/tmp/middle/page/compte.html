@@ -317,43 +317,193 @@
         <h3 class="h2 admin">admin</h3>
         <div class="bandeau padding admin">
             <div class="flex_r_w_c_s dim_100_21 padding">
-                <div class="bandeau_blanc_tr dim_100_20 margin_3 flex_r_nw_end_c">
-                    <button class="btn margin_3">
-                       <span>plus</span>
+                <div class="bandeau_blanc_tr dim_100_20 margin_3 flex_r_w_end_c">
+                    <button class="btn_admin list">
+                        <span>
+                            supprimer
+                        </span>
                     </button>
-                    <button class="btn margin_3">
-                        <span>plus</span>
-                     </button>
+                    <button class="btn_admin list">
+                        <span>
+                            ajouter
+                        </span>
+                    </button>
+                    <button class="btn_admin list">
+                        <span>
+                            option 3
+                        </span>
+                    </button>
+                    <button class="btn_admin list">
+                        <span>
+                            option 4
+                        </span>
+                    </button>
                 </div>
                 <div class="bandeau_black dim_100_15 margin_3 flex_r_nw_sa_c ">
-                    <input type="text" value="eric" 
-                    class="search_input dim_100_15 margin_3" 
-                    placeholder="recherche"/>
+                    <input type="text" value="eric" class="search_input dim_100_15 margin_3" placeholder="recherche" />
                     <button class="btn margin_3">
                         <div class="svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path
+                                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                            </svg>
                         </div>
                     </button>
                 </div>
                 <div class="bandeau_black dim_100_5 margin_3 flex_r_nw_c_c">
-                    <button class="btn margin_3">
-                       <span>plus</span>
+                    <button class="btn_admin margin_3 list">
+                        <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                        </div>
+                        <div class="content flex_c_w_start_start">
+                            <div class="padding">option 1</div>
+                            <div class="padding">option 2</div>
+                            <div class="padding">option 3</div>
+                        </div>
                     </button>
-                    <button class="btn margin_3">
-                        <span>plus</span>
-                     </button>
                 </div>
-                <div class="bandeau_blanc_tr dim_100_20 margin_3 flex_c_w_c_c">
-                    resultats
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
-                    <div class="bandeau_gris dim_100_20 margin_3"> h </div>
+                <div class="bandeau_black dim_100_20 margin_3 flex_c_w_c_c fg_w">
+                    <div id="client1" class="client_mid ">
+                        <div class="head">
+                            <span>erico jose</span>
+                            <div class="btns">
+                                <button class="btn_admin" onclick="animHtmlService.toggleClassToId('client1','open')">
+                                    open
+                                </button>
+                                <input class="margin" type="checkbox"/>
+                            </div>
+                        </div>
+                        <div class="content flex_r_w_s_c">
+                            <div class="dim_100_5">
+                                <img src="z/www/img/emoji/small/fox.png"/>
+                            </div>
+                            <div class="flex_r_w_start_c dim_100_16">
+                                <div class="data">
+                                    <span class="label">points :</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">cash :</span>
+                                    <span>500</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">titre :</span>
+                                    <span>king</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">tels :</span>
+                                    <a class="fg_w" href="https://wa.me/+237620388307">620388307</a>
+                                </div>
+                            </div>
+                            <div class="flex_r_w_end_c dim_100_21 footer_mid_client">
+                                <button class="btn_admin">
+                                    remove
+                                </button>
+                                <button class="btn_admin" onclick="animHtmlService.toggleClassToId('client_form_1','open')">
+                                    update
+                                </button>
+                            </div>
+                            <div id="client_form_1" class="form_mid_client">
+                                formulaire pour l'update
+                            </div>
+                        </div>
+                    </div>
+                    <div id="client2" class="client_mid ">
+                        <div class="head">
+                            <span>bling bling kmr</span>
+                            <div class="btns">
+                                <button class="btn_admin" 
+                                onclick="animHtmlService.toggleClassToId('client2','open')">
+                                    open
+                                </button>
+                                <input class="margin" type="checkbox"/>
+                            </div>
+                        </div>
+                        <div class="content flex_r_w_s_c">
+                            <div class="dim_100_5">
+                                <img src="z/www/img/emoji/small/target.png"/>
+                            </div>
+                            <div class="flex_r_w_start_c dim_100_16">
+                                <div class="data">
+                                    <span class="label">points :</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">cash :</span>
+                                    <span>500</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">titre :</span>
+                                    <span>king</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">tels :</span>
+                                    <a class="fg_w" href="https://wa.me/+237620388307">620388307</a>
+                                </div>
+                            </div>
+                            <div class="flex_r_w_end_c dim_100_21 footer_mid_client">
+                                <button class="btn_admin">
+                                    remove
+                                </button>
+                                <button class="btn_admin" 
+                                onclick="animHtmlService.toggleClassToId('client_form_2','open')">
+                                    update
+                                </button>
+                            </div>
+                            <div id="client_form_2" class="form_mid_client">
+                                formulaire pour l'update
+                            </div>
+                        </div>
+                    </div>
+                    <div id="client3" class="client_mid ">
+                        <div class="head">
+                            <span>erico jose</span>
+                            <div class="btns">
+                                <button class="btn_admin" 
+                                onclick="animHtmlService.toggleClassToId('client3','open')">
+                                    open
+                                </button>
+                                <input class="margin" type="checkbox"/>
+                            </div>
+                        </div>
+                        <div class="content flex_r_w_s_c">
+                            <div class="dim_100_5">
+                                <img src="z/www/img/emoji/small/award.png"/>
+                            </div>
+                            <div class="flex_r_w_start_c dim_100_16">
+                                <div class="data">
+                                    <span class="label">points :</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">cash :</span>
+                                    <span>500</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">titre :</span>
+                                    <span>king</span>
+                                </div>
+                                <div class="data">
+                                    <span class="label">tels :</span>
+                                    <a class="fg_w" href="https://wa.me/+237620388307">620388307</a>
+                                </div>
+                            </div>
+                            <div class="flex_r_w_end_c dim_100_21 footer_mid_client">
+                                <button class="btn_admin">
+                                    remove
+                                </button>
+                                <button class="btn_admin" 
+                                onclick="animHtmlService.toggleClassToId('client_form_3','open')">
+                                    update
+                                </button>
+                            </div>
+                            <div id="client_form_3" class="form_mid_client">
+                                formulaire pour l'update
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
